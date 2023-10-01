@@ -277,6 +277,16 @@ const initialState = [
     id: uuid(),
     categoria: "som",
   },
+  {
+    titulo: "TESTE",
+    descricao:
+      "Moderno e superpotente, o Mini System vai reproduzir suas músicas com qualidade máxima nos mais diversos formatos, como MP3, WMA CD, CD-R e CD-RW. E, se a ideia for promover festas e encontros animados, a função karaokê, a conexão Bluetooth e as duas portas USB serão bastante úteis.",
+    foto: miniSystem,
+    favorito: false,
+    preco: 782.91,
+    id: uuid(),
+    categoria: "TESTE",
+  },
 ];
 
 const itensSlice = createSlice({
